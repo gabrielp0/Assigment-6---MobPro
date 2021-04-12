@@ -3,7 +3,7 @@ import {View,Text,Image,StyleSheet} from 'react-native'
 
 // {key,name,username,email,address,phone}
 
-const Card = (props) => {
+const ListCard = (props) => {
   return (
     <View style={style.container}>
       <Text>Name: {props.name}</Text>
@@ -15,7 +15,7 @@ const Card = (props) => {
   )
 }
 
-export default Card
+export default ListCard
 
 const style = StyleSheet.create({
   container:{
